@@ -37,9 +37,11 @@
 .wd-selected {
     color: rgb(29,161,242);
     border-bottom: 5px solid rgb(29,161,242);
+    border-radius: 5%;
 }
 
 .wd-divider {
+    margin-top: 8px;
     background-color: rgb(23,24,29);
     height: 10px;
     border-top: 3px solid rgb(49,51,54);
