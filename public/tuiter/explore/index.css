@@ -7,6 +7,7 @@
 .primary {
     color: #0d6efd;
 }
+
 .active {
     color: white;
 }
@@ -34,10 +35,23 @@
     font-size: xx-large;
 }
 
+.list-group-item {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
 .articles {
     margin-top: 52.5%;
     border-top-right-radius: 0px;
     border-top-left-radius: 0px;
+}
+
+.article-img {
+    width: 100px;
+}
+
+.gray {
+    color: grey;
 }
 
 .input-group {
@@ -46,12 +60,4 @@
 
 .form-control {
     border: none;
-}
-.wd-selected {
-
-}
-
-.wd-nudge-up {
-    bottom: 8px;
-    left: 5px
 }
