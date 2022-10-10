@@ -1,54 +1,57 @@
-.wd-search-col {
-    width: 95%;
-    background-color: rgb(49,51,54);
-    padding: 10px;
-    border-radius: 20px;
-    margin-left: 16px;
+.list-group-item-text {
+    color: var(--bs-list-group-color);
+    text-decoration: none;
+    padding-left: 3px;
 }
 
-.wd-search-input{
+.primary {
+    color: #0d6efd;
+}
+.active {
+    color: white;
+}
+
+.follow-icon {
+    width: 50px;
+    height: 50px;
+}
+
+.article-title {
+    position: relative;
+}
+
+.article-title > img {
+    position: absolute;
+    width: 100%;
+}
+
+.article-title > .overlay-text {
+    position: absolute;
+    width: 100%;
+    color: white;
+    margin-top: 45%;
+    margin-left: 5px;
+    font-size: xx-large;
+}
+
+.articles {
+    margin-top: 52.5%;
+    border-top-right-radius: 0px;
+    border-top-left-radius: 0px;
+}
+
+.input-group {
+    border: 1px solid #ced4da;
+}
+
+.form-control {
     border: none;
-    background-color: rgb(49,51,54);
 }
-
-.wd-gear-col {
-    width: 5%;
-    margin: auto;
-    padding-right: 12px;
-}
-.wd-gear {
-    float: right;
-    color: rgb(29,161,242);
-    /* I know the gear is supposed to be hollow, not solid,
-    but the hollow version on fontawesome required a pro subscription. */
-}
-
-.wd-nav-tab {
-    width: 16.667%;
-    font-weight: bold;
-}
-
-.wd-nav-tab-title {
-    font-size: 15px;
-    padding: 16px 0px;
-    color: rgb(110, 118, 125);
-}
-
 .wd-selected {
-    color: rgb(29,161,242);
-    border-bottom: 5px solid rgb(29,161,242);
-    border-radius: 5%;
+
 }
 
-.wd-divider {
-    margin-top: 8px;
-    background-color: rgb(23,24,29);
-    height: 10px;
-    border-top: 3px solid rgb(49,51,54);
-}
-
-.wd-img {
-    height: 100px;
-    width: 100px;
-    border-radius: 10%;
+.wd-nudge-up {
+    bottom: 8px;
+    left: 5px
 }

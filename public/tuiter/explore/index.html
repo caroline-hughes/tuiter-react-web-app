@@ -2,140 +2,199 @@
 <html lang="en">
 
 <head>
-    <link href="index.css" rel="stylesheet" />
-    <link href="../styles.css" rel="stylesheet" />
     <script src="https://kit.fontawesome.com/a385b19128.js" crossorigin="anonymous"></script>
+    <link href="../../vendors/bootstrap/css/bootstrap.min.css" rel="stylesheet"/>
+    <link href="indexForA4.css" rel="stylesheet"/>
 </head>
 
-<body class="wd-body">
+<body>
+    <div class="container mt-2">  <!--mt-2 == margin top 2-->
 
-    <div class="wd-body-container">
+        <div class="row mt-2">
 
-        <!-- search bar and gear icon row-->
-        <div class="wd-row">
-            <div class="wd-search-col">
-                <input class="wd-search-input" type="text" value="" placeholder="Search Tuiter" />
-            </div>
-            <div class="wd-gear-col">
-                <a class="wd-gear" href="explore-settings.html"> <i class="fa-solid fa-gear"></i> </a>
-            </div>
-        </div>
+            <!--left sidebar-->
+            <div class="col-sm-2 col-md-2 col-xl-2 col-xxl-2">
+                <div class="list-group">
+                    <div class="row-cols-2 list-group-item">
+                        <i class="col-2 fa-solid fa-dove"></i>
+                    </div>
+                    <div class="row-cols-2 list-group-item">
+                        <i class="col-2 fa-sharp fa-solid fa-house"></i>
+                        <a class="col-10 list-group-item-text" href="#" > Home </a>
+                    </div>
+                    <div class="row-cols-2 list-group-item active">
+                        <i class="col-2 fa-sharp fa-solid fa-hashtag"></i>
+                        <a class="col-10 list-group-item-text active" href="#" > Explore </a>
+                    </div>
+                    <div class="row-cols-2 list-group-item">
+                        <i class="col-2 fa-solid fa-bell"></i>
+                        <a class="col-10 list-group-item-text" href="#" > Notifications </a>
+                    </div>
+                    <div class="row-cols-2 list-group-item">
+                        <i class="col-2 fa-solid fa-envelope"></i>
+                        <a class="col-10 list-group-item-text" href="#" > Messages </a>
+                    </div>
+                    <div class="row-cols-2 list-group-item">
+                        <i class="col-2 fa-solid fa-bookmark"></i>
+                        <a class="col-10 list-group-item-text" href="#" > Bookmarks </a>
+                    </div>
+                    <div class="row-cols-2 list-group-item">
+                        <i class="col-2 fa-regular fa-list"></i>
+                        <a class="col-10 list-group-item-text" href="#" > Lists </a>
+                    </div>
+                    <div class="row-cols-2 list-group-item">
+                        <i class="col-2 fa-solid fa-user"></i>
+                        <a class="col-10 list-group-item-text" href="#" > Profile </a>
+                    </div>
+                    <div class="row-cols-2 list-group-item">
+                        <i class="col-2 fa-solid fa-ellipsis"></i>
+                        <a class="col-10 list-group-item-text" href="#" > More </a>
+                    </div>
+                </div>
+                <button class="btn btn-primary rounded-pill w-100 mt-2">Tuit</button>
+            </div> <!--col-2 == 2/12 of container ... col-xxl-2 says only apply for xx large-->
 
-        <!-- navigation tabs row-->
-        <div class="wd-row">
-            <div class="wd-nav-tab">
-                <a class="wd-nav-tab-title wd-selected">For you</a>
-            </div>
-            <div class="wd-nav-tab">
-                <a class="wd-nav-tab-title">Trending</a>
-            </div>
-            <div class="wd-nav-tab">
-                <a class="wd-nav-tab-title">COVID-19</a>
-            </div>
-            <div class="wd-nav-tab">
-                <a class="wd-nav-tab-title">News</a>
-            </div>
-            <div class="wd-nav-tab">
-                <a class="wd-nav-tab-title">Sports</a>
-            </div>
-            <div class="wd-nav-tab">
-                <a class="wd-nav-tab-title">Entertainment</a>
-            </div>
-        </div>
+            <!--main content-->
+            <div class="col-sm-10 col-md-7 col-xl-7 col-xxl-6">
+                <div class="row">
 
-        <div class="wd-divider"></div>
+                    <div class="col-11">
+                        <div class="input-group mb-3 rounded-pill">
+                            <div class="input-group-prepend m-2">
+                                <i class="fa-solid fa-magnifying-glass"></i>
+                            </div>
+                            <input type="text" class="form-control" placeholder="Search Twitter"/>
+                        </div>
+                    </div>
+                    <div class="col-1 mt-1">
+<!--                        <button type="button" class="btn btn-primary">Primary</button>-->
+                        <a href="#" > <i class="fa-solid fa-gear fa-2x primary"></i> </a>
+                    </div>
 
-        <!-- start of content rows -->
+                </div>
 
-        <!-- type C content -->
-        <div class="wd-content-row">
-            <div>
-                <p class="wd-content-subtitle">
-                    Trending in Science
-                </p>
-                <h3 class="wd-content-title">
-                    Starship
-                </h3>
-                <p class="wd-content-subtitle">
-                    55.5k Tuits
-                </p>
+                <ul class="nav nav-tabs mt-2">
+                    <li class="nav-item">
+                        <a href="for-you.html" class="nav-link active">For You</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="trending.html" class="nav-link">Trending</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="news.html" class="nav-link">News</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="sports.html" class="nav-link">Sports</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="entertainment.html" class="nav-link">Entertainment</a>
+                    </li>
+                </ul>
+
+<!--                <img src="../images/spaceship.jpg" class="w-100"/>-->
+<!--                <div class="col-xs-12 col-sm-6 col-md-8 col-centered">-->
+<!--                    <div class="maintxt">-->
+<!--                        My great text.-->
+<!--                    </div>-->
+<!--                </div>-->
+
+<!--                <div class="col-xs-12 col-sm-6 col-md-8 col-centered">-->
+<!--                <div class="row">-->
+
+                    <div class="article-title">
+                        <img src="../images/spaceship.jpg" class="img-responsive">
+                        <span class="overlay-text text-xl-left">SpaceX's Starship</span>
+                    </div>
+
+                    <div class="list-group articles">
+                        <div class="row-cols-2 list-group-item">
+                            <i class="col-2 fa-solid fa-dove"></i>
+                        </div>
+                        <div class="row-cols-2 list-group-item">
+                            <i class="col-2 fa-sharp fa-solid fa-house"></i>
+                            <a class="col-10 list-group-item-text" href="#" > Home </a>
+                        </div>
+                        <div class="row-cols-2 list-group-item active">
+                            <i class="col-2 fa-sharp fa-solid fa-hashtag"></i>
+                            <a class="col-10 list-group-item-text active" href="#" > Explore </a>
+                        </div>
+
+                    </div>
+                
+             </div>
+
+            <!--right sidebar-->
+            <div class="col-sm-0 col-md-3 col-xl-3 col-xxl-4"> <!--col-2 == 4/12 of container-->
+                <ul class="list-group">
+                    <li class="list-group-item fw-bold">Who To Follow</li>
+
+                    <li class="list-group-item">
+                        <div class="row">
+                            <div class="col-sm-3 col-md-3 col-xl-3 col-xxl-3 m-auto">
+                                <img class="follow-icon rounded-circle" src="../images/nasasq.png"/>
+                            </div>
+                            <div class="col-sm-5 col-md-5 col-xl-5 col-xxl-5 m-auto">
+                                <div class="row">
+                                    <div class="col-auto fw-bold p-0">NASA </div>
+                                    <i class="col fa-solid fa-circle-check m-auto"></i>
+                                </div>
+                                <div class="row"><div class="col-12 p-0">@NASA </div></div>
+                            </div>
+                            <div class="col-sm-4 col-md-4 col-xl-4 col-xxl-4 m-auto"><button class="btn btn-primary rounded-pill float-end">Follow</button> </div>
+                        </div>
+                    </li>
+                    <li class="list-group-item">
+                        <div class="row">
+                            <div class="col-sm-3 col-md-3 col-xl-3 col-xxl-3 m-auto">
+                                <img class="follow-icon rounded-circle" src="../images/java2.png"/>
+                            </div>
+                            <div class="col-sm-5 col-md-5 col-xl-5 col-xxl-5 m-auto">
+                                <div class="row">
+                                    <div class="col-auto fw-bold p-0">Java </div>
+                                    <i class="col fa-solid fa-circle-check m-auto"></i>
+                                </div>
+                                <div class="row"><div class="col-12 p-0">@Java </div></div>
+                            </div>
+                            <div class="col-sm-4 col-md-4 col-xl-4 col-xxl-4 m-auto"><button class="btn btn-primary rounded-pill float-end">Follow</button> </div>
+                        </div>
+                    </li>
+                    <li class="list-group-item">
+                        <div class="row">
+                            <div class="col-sm-3 col-md-3 col-xl-3 col-xxl-3 m-auto">
+                                <img class="follow-icon rounded-circle" src="../images/tesla-logo-01.jpg"/>
+                            </div>
+                            <div class="col-sm-5 col-md-5 col-xl-5 col-xxl-5 m-auto">
+                                <div class="row">
+                                    <div class="col-auto fw-bold p-0">Tesla </div>
+                                    <i class="col fa-solid fa-circle-check m-auto"></i>
+                                </div>
+                                <div class="row"><div class="col-12 p-0">@Tesla </div></div>
+                            </div>
+                            <div class="col-sm-4 col-md-4 col-xl-4 col-xxl-4 m-auto"><button class="btn btn-primary rounded-pill float-end">Follow</button> </div>
+                        </div>
+                    </li>
+
+                    <li class="list-group-item">
+                        <div class="row">
+                            <div class="col-sm-3 col-md-3 col-xl-3 col-xxl-3 m-auto">
+                                <img class="follow-icon rounded-circle" src="../images/virgin.jpg"/>
+                            </div>
+                            <div class="col-sm-5 col-md-5 col-xl-5 col-xxl-5 m-auto">
+                                <div class="row">
+                                    <div class="col-auto fw-bold p-0">Virgin Galactic</div>
+                                    <i class="col fa-solid fa-circle-check m-auto"></i>
+                                </div>
+                                <div class="row"><div class="col-12 p-0">@virgingalactic </div></div>
+                            </div>
+                            <div class="col-sm-4 col-md-4 col-xl-4 col-xxl-4 m-auto"><button class="btn btn-primary rounded-pill float-end">Follow</button> </div>
+                        </div>
+                    </li>
+                </ul>
             </div>
-        </div>
-
-        <!-- type C content -->
-        <div class="wd-content-row">
-            <div>
-                <p class="wd-content-subtitle">
-                    Trending in United States
-                </p>
-                <h3 class="wd-content-title">
-                    Wonder Bread
-                </h3>
-                <p class="wd-content-subtitle">
-                    5,218 Tuits
-                </p>
-            </div>
-        </div>
-
-        <!-- type D content -->
-        <div class="wd-content-row">
-            <div class="wd-content-header">
-                <p class="wd-content-name">
-                    The Northeastern Times
-                    <span class="wd-content-subtitle">
-                         - Yesterday
-                    </span>
-                </p>
-                <h3 class="wd-content-title">
-                    Two self-driving cars collided outside Ruggles, zero injured
-                </h3>
-            </div>
-                <img class="wd-img" src="../images/nu.jpg"/>
-        </div>
-
-        <!-- type D content -->
-        <div class="wd-content-row">
-            <div class="wd-content-header">
-                <p class="wd-content-name">
-                    The New York Post
-                    <span class="wd-content-subtitle">
-                         - Yesterday
-                    </span>
-                </p>
-                <h3 class="wd-content-title">
-                    How much wood could a woodchuck chuck, if a woodchuck could chuck wood?
-                </h3>
-            </div>
-            <img class="wd-img" src="../images/nypost.png"/>
-        </div>
-
-        <!-- type E content -->
-        <div class="wd-content-row">
-            <div class="wd-content-header">
-                <p class="wd-content-subtitle">
-                    COVID-19: Live
-                </p>
-                <h3 class="wd-content-title">
-                    News and Updates for Massachusetts
-                </h3>
-            </div>
-            <img class="wd-img" src="../images/covid.jpg"/>
-        </div>
-
-        <!-- type E content -->
-        <div class="wd-content-row">
-            <div class="wd-content-header">
-                <p class="wd-content-subtitle">
-                    Queen Elizabeth II
-                </p>
-                <h3 class="wd-content-title">
-                    Live Stream of Funeral Procession
-                </h3>
-            </div>
-            <img class="wd-img" src="../images/queen.jpg"/>
         </div>
 
     </div>
+
 
 </body>
 
