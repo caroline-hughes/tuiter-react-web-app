@@ -1,0 +1,54 @@
+.wd-search-col {
+    width: 95%;
+    background-color: rgb(49,51,54);
+    padding: 10px;
+    border-radius: 20px;
+    margin-left: 16px;
+}
+
+.wd-search-input{
+    border: none;
+    background-color: rgb(49,51,54);
+}
+
+.wd-gear-col {
+    width: 5%;
+    margin: auto;
+    padding-right: 12px;
+}
+.wd-gear {
+    float: right;
+    color: rgb(29,161,242);
+    /* I know the gear is supposed to be hollow, not solid,
+    but the hollow version on fontawesome required a pro subscription. */
+}
+
+.wd-nav-tab {
+    width: 16.667%;
+    font-weight: bold;
+}
+
+.wd-nav-tab-title {
+    font-size: 15px;
+    padding: 16px 0px;
+    color: rgb(110, 118, 125);
+}
+
+.wd-selected {
+    color: rgb(29,161,242);
+    border-bottom: 5px solid rgb(29,161,242);
+    border-radius: 5%;
+}
+
+.wd-divider {
+    margin-top: 8px;
+    background-color: rgb(23,24,29);
+    height: 10px;
+    border-top: 3px solid rgb(49,51,54);
+}
+
+.wd-img {
+    height: 100px;
+    width: 100px;
+    border-radius: 10%;
+}
