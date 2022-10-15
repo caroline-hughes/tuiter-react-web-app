@@ -1,7 +1,7 @@
 import PostSummaryItem from "./PostSummaryItem.js";
 import posts from "./posts.js";
 
-const WhoToFollowList = () => {
+const PostSummaryList = () => {
     return(`
        <ul class="list-group articles">
          ${
@@ -12,4 +12,4 @@ const WhoToFollowList = () => {
       </ul>
    `);
 }
-export default WhoToFollowList;
+export default PostSummaryList;
