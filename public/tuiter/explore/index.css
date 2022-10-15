@@ -56,8 +56,13 @@
 
 .input-group {
     border: 1px solid #ced4da;
+    background-color: #fff;
+}
+
+.fa-magnifying-glass {
+    color: gray;
 }
 
 .form-control {
-    border: none;
+    border-radius: 1rem;
 }
