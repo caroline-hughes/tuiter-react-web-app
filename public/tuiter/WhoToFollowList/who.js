@@ -11,9 +11,9 @@ export default
         userName: 'Virgin Galactic',
         handle: 'virgingalactic', },
 
-    {   avatarIcon: 'nasasq.png',
+    {   avatarIcon: 'nasa.png',
         userName: 'NASA', handle: 'NASA', },
 
-    {   avatarIcon: 'tesla-logo-01.jpg',
+    {   avatarIcon: 'tesla.jpg',
         userName: 'Tesla', handle: 'Tesla', },
 ];
