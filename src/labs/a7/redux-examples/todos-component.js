@@ -47,6 +47,11 @@ const Todos = () => {
                       float-end ms-2">
                                 Delete
                             </button>
+                            <input type="checkbox"
+                                   checked={todo.done}
+                                   onChange={() =>
+                                       toggleTodoDone(todo)}
+                                   className="me-2"/>
                             {todo.do}
                         </li>
                     )
