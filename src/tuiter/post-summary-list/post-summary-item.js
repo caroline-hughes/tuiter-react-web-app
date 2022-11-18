@@ -1,5 +1,5 @@
 import React from "react";
-const PostSummaryItem = ({key, post}) => {
+const PostSummaryItem = ({post}) => {
     return(
         <li className="list-group-item">
             <div className="row">

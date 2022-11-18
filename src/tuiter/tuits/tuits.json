@@ -1,0 +1,44 @@
+[
+  {
+    "_id": 123,
+    "topic": "Space",
+    "userName": "Relativity",
+    "time": "2h",
+    "title": "100s of Starships land on Mars after a 6 month journey. 1000s of Martian colonists being building Mars Base 1",
+    "image": "relativity.jpg",
+    "liked": true,
+    "replies": 123,
+    "retuits": 432,
+    "likes": 2345,
+    "handle": "@relativity",
+    "tuit": "You want to wake up in the morning and think the future is going to be great - and that’s what being a spacefaring civilization is all about. It’s about believing in the future and thinking that the future will be better than the past. And I can’t think of anything more exciting than going out there and being among the stars"
+  },
+  {
+    "_id": 234,
+    "topic": "Energy",
+    "userName": "NY Post",
+    "time": "4d",
+    "title": "Tesla FSD finally makes driving obsolete. After years of delay, Tesla Full Self Driving can drive you to work while you work, play, or sleep",
+    "image": "nypost.png",
+    "liked": false,
+    "replies": 234,
+    "retuits": 7,
+    "likes": 999,
+    "handle": "@nypost",
+    "tuit": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of de Finibus Bonorum et Malorum (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, Lorem ipsum dolor sit amet.., comes from a line in section 1.10.32."
+  },
+  {
+    "_id": 456,
+    "topic": "Aliens",
+    "userName": "NASA",
+    "time": "1m",
+    "title": "NASA will preview the upcoming International Space Station Rollout Solar Array (iRosa) spacewalks and provide coverage of all three live.",
+    "image": "nasa.png",
+    "liked": true,
+    "replies": 67,
+    "retuits": 723,
+    "likes": 1345,
+    "handle": "@nasa",
+    "tuit": "The next two U.S. spacewalks are scheduled on Monday, Nov. 28, and Thursday, Dec. 1. On Nov. 28, two astronauts will install an iROSA for the 3A power channel, and on Dec. 1 a pair of astronauts will install an iROSA on the port truss for the 4A power channel. These will be the third and fourth iROSAs out of a total six planned for installation. The iROSAs will increase power generation capability by up to 30%, increasing the station’s total available power from 160 kilowatts to up to 215 kilowatts."
+  }
+]
