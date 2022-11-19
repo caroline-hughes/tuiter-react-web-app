@@ -9,7 +9,7 @@ import ExploreComponent from "./explore";
 import HomeComponent from "./home";
 
 const store = configureStore(
-    {reducer: {who: whoReducer, tuits: tuitsReducer}});
+    {reducer: {who: whoReducer, tuitsData: tuitsReducer}});
 
 function Tuiter({path = 'home'}) {
     return (
